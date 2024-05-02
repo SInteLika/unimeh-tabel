@@ -1,0 +1,38 @@
+@import "resetV2.css";
+body {
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.input {
+  margin-bottom: 50px;
+  width: 350px;
+  height: 40px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+
+.table th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+  user-select: none;
+  cursor: pointer;
+}
+
+.table td {
+  border: 1px solid #dddddd;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */
